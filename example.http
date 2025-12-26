@@ -1,1 +1,14 @@
-GET http://localhost:8000/
+### Configuration
+@baseUrl = http://localhost:8000/api
+@contentType = application/json
+
+### Register User
+POST {{baseUrl}}/register
+Content-Type: {{contentType}}
+
+{
+    "name": "your_name",
+    "email": "your_email@example.com",
+    "password": "password123",
+    "password_confirmation": "password123"
+}

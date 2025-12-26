@@ -5,5 +5,15 @@
         "app/Models"
     ],
     "LaravelExtraIntellisense.basePathForCode": "/workspaces/lumen_jwt_auth",
-    "LaravelExtraIntellisense.logLevel": "none"
+    "LaravelExtraIntellisense.logLevel": "none",
+    "draw.folder.structure.exclude" :[
+        "**/.devcontainer",
+        "**/.vscode",
+        "**/vendor",
+        "**/node_modules",
+        "**/*.git",
+        "**/dist",
+        "**/*.next",
+        "**/out"
+    ]
 }
