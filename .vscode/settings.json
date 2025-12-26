@@ -1,7 +1,9 @@
 {
+    "LaravelExtraIntellisense.phpCommand": "php -r \"require 'vendor/autoload.php'; \\$app = require 'bootstrap/app.php'; if (\\$app === true) { \\$app = Laravel\\Lumen\\Application::getInstance(); } {{code}}\"",
     "LaravelExtraIntellisense.modelsPaths": [
         "app",
         "app/Models"
     ],
-    "LaravelExtraIntellisense.basePathForCode": "/workspaces/lumen_jwt_auth"
+    "LaravelExtraIntellisense.basePathForCode": "/workspaces/lumen_jwt_auth",
+    "LaravelExtraIntellisense.logLevel": "none"
 }
