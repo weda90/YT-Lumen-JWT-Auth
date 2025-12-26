@@ -30,7 +30,8 @@
 				"ms-azuretools.vscode-docker",
 				"bmewburn.vscode-intelephense-client",
 				"amiralizadeh9480.laravel-extra-intellisense",
-				"humao.rest-client"
+				"humao.rest-client",
+				"cweijan.vscode-database-client2"
 			]
 		}
 	},

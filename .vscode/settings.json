@@ -1,0 +1,7 @@
+{
+    "LaravelExtraIntellisense.modelsPaths": [
+        "app",
+        "app/Models"
+    ],
+    "LaravelExtraIntellisense.basePathForCode": "/workspaces/lumen_jwt_auth"
+}

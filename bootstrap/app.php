@@ -91,6 +91,9 @@ $app->configure('app');
 |
 */
 
+$app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);
+$app->withFacades();
+$app->withEloquent();
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
