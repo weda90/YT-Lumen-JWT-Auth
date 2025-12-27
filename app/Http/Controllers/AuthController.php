@@ -51,6 +51,10 @@ class AuthController extends Controller
         return response()->json(Auth::user());
     }
 
+    public function refresh(){
+        return $this->responseWithToken(Auth::refresh());
+    }
+
     public function logout()
     {
         Auth::logout();

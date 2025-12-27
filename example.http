@@ -31,6 +31,11 @@ GET {{baseUrl}}/me
 Authorization: Bearer {{token}}
 Content-Type: {{contentType}}
 
+### Refresh Token
+POST {{baseUrl}}/refresh
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
 ### Logout
 POST {{baseUrl}}/logout
 Authorization: Bearer {{token}}
