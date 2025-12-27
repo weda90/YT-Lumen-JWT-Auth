@@ -14,6 +14,7 @@ Content-Type: {{contentType}}
 }
 
 ### Login
+# @name login
 POST {{baseUrl}}/login
 Content-Type: {{contentType}}
 
@@ -21,3 +22,16 @@ Content-Type: {{contentType}}
     "email": "your_email@example.com",
     "password": "password123"
 }
+
+### token
+@token= {{login.response.body.access_token}}
+
+### Me
+GET {{baseUrl}}/me
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
+
+### Logout
+POST {{baseUrl}}/logout
+Authorization: Bearer {{token}}
+Content-Type: {{contentType}}
