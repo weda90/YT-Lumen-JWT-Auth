@@ -12,3 +12,12 @@ Content-Type: {{contentType}}
     "password": "password123",
     "password_confirmation": "password123"
 }
+
+### Login
+POST {{baseUrl}}/login
+Content-Type: {{contentType}}
+
+{
+    "email": "your_email@example.com",
+    "password": "password123"
+}

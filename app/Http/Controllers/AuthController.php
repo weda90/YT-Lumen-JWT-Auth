@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
@@ -29,5 +30,29 @@ class AuthController extends Controller
             'message' => 'User successfully registered',
             'result' => $user
         ], 201);
+    }
+
+    public function login(Request $request)
+    {
+        $credentials = $request->only(['email', 'password']);
+
+        if (!$token = Auth::attempt($credentials)) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Unauthorized / Wrong credentials'
+            ], 401);
+        }
+
+        return $this->responseWithToken($token);
+    }
+
+    protected function responseWithToken($token)
+    {
+        return response()->json([
+            'access_token' => $token,
+            'token_type' => 'bearer',
+            'user' => Auth::user(),
+            'expires_in' => Auth::factory()->getTTL() * 60
+        ]);
     }
 }
