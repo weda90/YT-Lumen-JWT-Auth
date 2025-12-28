@@ -23,8 +23,8 @@ This step focuses on preparing an isolated development environment using Docker.
 ### 1. Create Project Directory
 
 ```bash
-mkdir lumen-docker
-cd lumen-docker
+mkdir lumen_jwt_auth
+cd lumen_jwt_auth
 ```
 
 ---
