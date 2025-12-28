@@ -1,5 +1,11 @@
 # 🚀 Tutorial: Lumen - JWT Authentication with SQLite
 
+![PHP](https://img.shields.io/badge/PHP-8.x-blue)
+![Lumen](https://img.shields.io/badge/Lumen-Framework-red)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![Docker](https://img.shields.io/badge/Docker-DevContainer-blue)
+
+
 This guide provides a **step-by-step implementation of JWT Authentication in Lumen**, using a SQLite database.
 
 [![Lumen JWT Auth - without Talk](https://img.youtube.com/vi/1TEej4vlagM/maxresdefault.jpg)](https://www.youtube.com/watch?v=1TEej4vlagM)
