@@ -10,9 +10,11 @@ This guide provides a **step-by-step implementation of JWT Authentication in Lum
 
 [![Lumen JWT Auth - without Talk](https://img.youtube.com/vi/1TEej4vlagM/maxresdefault.jpg)](https://www.youtube.com/watch?v=1TEej4vlagM)
 
-🎥 **Watch the full video:**  
-https://www.youtube.com/watch?v=1TEej4vlagM
+🎥 **Watch the full video tutorial:**
+[https://www.youtube.com/watch?v=1TEej4vlagM](https://www.youtube.com/watch?v=1TEej4vlagM)
 
+📖 **Read the full written guide on Medium:**
+[https://medium.com/@weda.dewa/007b6965d043](https://medium.com/@weda.dewa/007b6965d043)
 
 ---
 
