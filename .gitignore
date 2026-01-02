@@ -7,3 +7,4 @@ Homestead.yaml
 
 database/database.sqlite
 .DS_Store
+.secrets
